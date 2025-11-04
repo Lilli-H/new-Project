@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(12, 85, 87);
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+
+p{
+    color: beige;
+}
+
+img{
+    width: 400px;
+}
+
+h2{
+    color: coral;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
