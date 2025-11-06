@@ -15,14 +15,47 @@ header{
     gap: 20px;
 }
 
+a:hover{
+    background-color: rgb(26, 81, 96);
+     
+}
+
+a:focus{
+    text-decoration: underline;
+}
+
 a{
     color: white;
     text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 h1{
     text-align: center;
     color: yellow;
+    font-size: clamp(20px, 5vw, 56px)
+}
+
+.Layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Layout article{
+    background-color: beige;
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    flex-grow: 1;
+    
+}
+
+#bigger{
+    flex-grow: 2;
 }
 
 p{
