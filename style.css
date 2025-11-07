@@ -46,7 +46,7 @@ h1{
 
 .Layout article{
     background-color: beige;
-    font-size: 36px;
+    font-size: clamp(16px, 4vw, 36px);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
@@ -56,6 +56,30 @@ h1{
 
 #bigger{
     flex-grow: 2;
+}
+
+.cards{
+    margin-top: 45px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards article{
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 28px;
+    width: 25vw;
+    max-width: 250px;
+    min-width: 190px;
+
+}
+
+.cards article p{
+    color: black;
 }
 
 p{
